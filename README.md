@@ -11,3 +11,8 @@ Se descargo el nuget de microsoft.aspnetcore.signalr.
 
 Se implemento las librerias de signalr client que estan ubicadas en wwwroot\lib\microsoft. Se implemento el mismo modelo. 
 Se creo un component y su vista parcial llamada _Respuesta. Se creo un metodo en el controller llamado AgregarEmpleado. Se creo unos javascript en wwwroot\js.
+
+# Gateway
+
+Se descargo el nuget de MMLib.Ocelot.Provider.AppConfiguration, MMLib.SwaggerForOcelot, Ocelot. Se creo el archivo ocelot.json. Se modificio el appsettings con los host de la api de signal y el host del gateway. Se implemento una clase llamada MyDocumentFilter para eliminar de swagger una documentacion extra que sale por el swagger de ocelot. Se inicializo los servicios en el program
+
